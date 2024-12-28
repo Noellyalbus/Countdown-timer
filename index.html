@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+  <title>Countdown Timer</title>
+</head>
+<body>
+  <div class="container">
+
+    <div class="content">
+      <div class="countdown-timer">
+        <h1 class="timer-titulo" id="countdown-titulo">Ready to launch in...</h1>
+
+        <div class="timer" id="timer">
+          <div class="dias">
+            <span class="timer-label">Dias</span>
+            <p class="timer-value" id="daysLeft">08</p>
+          </div>
+
+          <p class="timer-colon">:</p>
+
+          <div class="horas">
+            <span class="timer-label">Horas</span>
+            <p class="timer-value" id="hoursLeft">12</p>
+          </div>
+
+          <p class="timer-colon">:</p>
+
+          <div class="minutos">
+            <span class="timer-label">Minutos</span>
+            <p class="timer-value" id="minutesLeft">44</p>
+          </div>
+
+          <p class="timer-colon">:</p>
+
+          <div class="Segundos">
+            <span class="timer-label">Segundos</span>
+            <p class="timer-value" id="secondsLeft">28</p>
+          </div>
+        </div>
+
+        <span class="timer-description">Inscreva-se para saber mais sobre o lançamento</span>
+
+        <button class="timer-button">Inscreva-se</button>
+      </div>
+
+      <div class="rocket-img">
+        <img src="images/rocket.svg" alt="Um foguete com nuvens roxas">
+      </div>
+    </div>
+    <img class="top-image" src="./images/top-image.svg">
+    <img class="bottom-image" src="./images/bottom-image.svg">
+
+  </div>
+
+</body>
+<script src="script.js" defer></script>
+</html>
